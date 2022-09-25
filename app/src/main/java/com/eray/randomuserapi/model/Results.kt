@@ -16,7 +16,10 @@ data class Results (
     var eMail:String,
 
     @SerializedName("picture")
-    var picture:Picture
+    var picture:Picture,
+
+    @SerializedName("phone")
+    var phone:String
 
 
 

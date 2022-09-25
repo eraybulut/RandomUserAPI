@@ -20,11 +20,15 @@ class UserAdapter(var mContext: Context,var userList: List<Results>):RecyclerVie
         var imageViewUserPic:ImageView
         var textViewUserName:TextView
         var textViewUserEmail:TextView
+        var textViewUserTel:TextView
+        var textViewUserState:TextView
 
         init {
             imageViewUserPic=itemView.findViewById(R.id.imageViewUserPic)
             textViewUserName=itemView.findViewById(R.id.textViewUserName)
             textViewUserEmail=itemView.findViewById(R.id.textViewUserEmail)
+            textViewUserTel=itemView.findViewById(R.id.textViewUserTel)
+            textViewUserState=itemView.findViewById(R.id.textViewUserState)
         }
 
     }
@@ -45,6 +49,11 @@ class UserAdapter(var mContext: Context,var userList: List<Results>):RecyclerVie
             .get()
             .load(users.picture.large)
             .into(holder.imageViewUserPic)
+
+        holder.textViewUserState.text="${users.location.state} / ${users.location.country}"
+
+        holder.textViewUserTel.text=users.phone
+
 
 
 

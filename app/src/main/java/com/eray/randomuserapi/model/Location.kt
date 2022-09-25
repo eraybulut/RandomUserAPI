@@ -6,5 +6,7 @@ data class Location (
     @SerializedName("city")
     var city:String,
     @SerializedName("country")
-    var country:String
+    var country:String,
+    @SerializedName("state")
+    var state:String
     )
