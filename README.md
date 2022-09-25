@@ -5,4 +5,4 @@
 
 
 ## Demo 
-![](https://github.com/eraybulut/RandomUserAPI/blob/1a5e31da6e0cd146382dd6ae8f064b9f4398e479/media/demo.gif)
+![](https://github.com/eraybulut/RandomUserAPI/blob/509593bca68f4dab6ec40cd64c5dbb10dbcb9596/media/demo.gif)
