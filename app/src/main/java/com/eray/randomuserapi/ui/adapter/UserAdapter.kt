@@ -42,7 +42,7 @@ class UserAdapter(var mContext: Context,var userList: List<Results>):RecyclerVie
     override fun onBindViewHolder(holder: cardViewHolder, position: Int) {
         var users=userList[position]
 
-        holder.textViewUserName.text="${users.name.first}  ${users.name.last}"
+        holder.textViewUserName.text="${users.name.title}.${users.name.first}  ${users.name.last}"
         holder.textViewUserEmail.text=users.eMail
 
         Picasso
