@@ -1,5 +1,6 @@
 # RandomUserAPI
 
+Getting random users using API
 
 [Api link ](https://randomuser.me/)
 
